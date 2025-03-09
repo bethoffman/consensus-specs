@@ -1499,7 +1499,7 @@ Req/Resp is used to avoid confusion with JSON-RPC and similar user-client intera
 
 #### What is a typical rate limiting strategy?
 
-The responder typically will want to rate limit requests to protect against spam and to manage resource consumption, while the requester will want to maximise performance based on its own resource allocation strategy. For the network, it is beneficial if available resources are used optimally.
+The responder typically will want to rate limit requests to protect against spam and to manage resource consumption, while the requester will want to maximize performance based on its own resource allocation strategy. For the network, it is beneficial if available resources are used optimally.
 
 Broadly, the requester does not know the capacity / limit of each server but can derive it from the rate of responses for the purpose of selecting the next peer for a request.
 
